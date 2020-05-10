@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2137944" started-at="2020-05-04T11:37:01Z" finished-at="2020-05-04T12:12:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2137944" started-at="2020-05-04T11:37:01Z" finished-at="2020-05-04T12:12:39Z">
+      <class name="com.atcost.qa.testcases.TheHinduTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atcost.qa.testcases.TheHinduTest@3ac3fd8b]" name="setUp" is-config="true" duration-ms="12502" started-at="2020-05-04T17:07:01Z" finished-at="2020-05-04T17:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="hinduLandingPageTest()[pri:0, instance:com.atcost.qa.testcases.TheHinduTest@3ac3fd8b]" name="hinduLandingPageTest" duration-ms="2120969" started-at="2020-05-04T17:07:13Z" finished-at="2020-05-04T17:42:34Z">
+          <exception class="org.sikuli.script.FindFailed">
+            <message>
+              <![CDATA[can not find P(D:/Eclipse-Oxygen/AtCostProject/para.png) S: 0.7 in S(0)[0,0 1366x768]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[FindFailed: can not find P(D:/Eclipse-Oxygen/AtCostProject/para.png) S: 0.7 in S(0)[0,0 1366x768]
+  Line 2189, in file Region.java
+
+	at org.sikuli.script.Region.handleFindFailedShowDialog(Region.java:2189)
+	at org.sikuli.script.Region.handleFindFailed(Region.java:2134)
+	at org.sikuli.script.Region.wait(Region.java:2546)
+	at com.atcost.qa.testcases.TheHinduTest.hinduLandingPageTest(TheHinduTest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.sikuli.script.FindFailed -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hinduLandingPageTest -->
+      </class> <!-- com.atcost.qa.testcases.TheHinduTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

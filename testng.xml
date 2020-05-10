@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AtCost">
+  <test name="Test">
+    <classes>
+      <class name="com.atcost.qa.testcases.TheHinduTest">
+      <methods>
+      <include name="hinduLandingPageTest"></include>
+      <!-- <include name="description"></include> -->
+      
+      </methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- AtCost -->

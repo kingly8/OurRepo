@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AtCost]">
+  <test name="Test">
+    <classes>
+      <class name="com.atcost.qa.testcases.TheHinduTest">
+        <methods>
+          <include name="hinduLandingPageTest"/>
+        </methods>
+      </class> <!-- com.atcost.qa.testcases.TheHinduTest -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [AtCost] -->
