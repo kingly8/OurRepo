@@ -1,6 +1,5 @@
 package com.atcost.qa.testcases;
 
-import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
 
